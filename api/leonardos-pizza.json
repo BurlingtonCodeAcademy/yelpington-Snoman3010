@@ -1,0 +1,18 @@
+{
+    "id": "leonardos-pizza",
+    "name": "Leonardo's Pizza",
+    "address": "1160 Williston Rd",
+    "phone": "951-9000",
+    "hours": {
+        "mon": "11:00 am - 11:55 pm",
+        "tue": "11:00 am - 11:55 pm",
+        "wed": "11:00 am - 11:55 pm",
+        "thu": "11:00 am - 11:55 pm",
+        "fri": "11:00 am - 11:55 pm",
+        "sat": "11:00 am - 11:55 pm",
+        "sun": "11:00 am - 11:55 pm"
+    },
+    "notes": [
+        
+    ]
+}

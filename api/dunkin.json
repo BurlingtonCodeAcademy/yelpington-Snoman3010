@@ -1,0 +1,18 @@
+{
+    "id": "dunkin",
+    "name": "Dunkin'",
+    "address": "1220 Williston Rd",
+    "phone": "658-4157",
+    "hours": {
+        "mon": "4:00 am - 8:00 pm",
+        "tue": "4:00 am - 8:00 pm",
+        "wed": "4:00 am - 8:00 pm",
+        "thu": "4:00 am - 8:00 pm",
+        "fri": "4:00 am - 8:00 pm",
+        "sat": "4:00 am - 8:00 pm",
+        "sun": "4:00 am - 8:00 pm"
+    },
+    "notes": [
+        
+    ]
+}

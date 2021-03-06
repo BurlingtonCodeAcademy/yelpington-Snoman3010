@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Al's French Frys",
+        "lat": 44.4671778,
+        "long": -73.17432560300117
+    },
+    {
+        "name": "Zachary's Pizza",
+        "lat": 44.4681357,
+        "long": -73.17445044467459
+    },
+    {
+        "name": "McDonald's",
+        "lat": 44.46746895,
+        "long": -73.17565515000001
+    },
+    {
+        "name": "Dunkin'",
+        "lat": 44.46806545,
+        "long": -73.17511495
+    },
+    {
+        "name": "Silver Palace",
+        "lat": 44.4689147,
+        "long": -73.175504
+    },
+    {
+        "name": "The Bagel Place",
+        "lat": 44.4685589,
+        "long": -73.1772285
+    },
+    {
+        "name": "Leonardo's Pizza",
+        "lat": 44.4686464,
+        "long": -73.177623
+    },
+    {
+        "name": "Moe's Southwest Grill",
+        "lat": 44.4689793,
+        "long": -73.1780634
+    }
+]
