@@ -1,0 +1,18 @@
+{
+    "id": "moes-southwest-grill",
+    "name": "Moe's Southwest Grill",
+    "address": "1150 Williston Rd",
+    "phone": "660-4900",
+    "hours": {
+        "mon": "11:00 am - 9:00 pm",
+        "tue": "11:00 am - 9:00 pm",
+        "wed": "11:00 am - 9:00 pm",
+        "thu": "11:00 am - 9:00 pm",
+        "fri": "11:00 am - 9:00 pm",
+        "sat": "11:00 am - 9:00 pm",
+        "sun": "11:00 am - 9:00 pm"
+    },
+    "notes": [
+        
+    ]
+}

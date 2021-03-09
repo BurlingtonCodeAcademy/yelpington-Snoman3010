@@ -1,38 +1,80 @@
-.App {
+/*Header and global styles*/
+*{
+  margin: 0;
+}
+
+body{
+  background-color: lightgray;
+}
+
+#title{
   text-align: center;
+  background-color: palegoldenrod;
+  padding-top: 5vh;
+  height: 10vh;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main-content{
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*nav bar styles*/
+#nav-bar{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 13vw;
+  background-color: darkgray;  
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item{
+  height: 3rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item:hover{
+  background-color: gray;
+}
+
+/*Info and comments display styles*/
+#restaurant-display{
+  width: 37vw;
+  background-color: lightgray;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#data-display{
+  height: 30%;
+  padding-left: 5%;
+  padding-top: 1rem;
+  min-height: 15rem;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+}
+
+#comments-display{
+  height: 30%;
+  padding-left: 5%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+}
+
+#comments-display-text{
+  height: 80%;
+}
+
+#comments-display-text p{
+  padding-top: .7rem;
+}
+
+#new-comment-holder{
+  padding-left: 5%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }

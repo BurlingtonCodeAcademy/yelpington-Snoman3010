@@ -4,6 +4,7 @@
   "description": "Burlington Code Academy restaurant app",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node sanityCheck.js"
   },
   "repository": {
