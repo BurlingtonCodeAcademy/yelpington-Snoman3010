@@ -6,6 +6,7 @@ function Nav(props){
         let words = kabobString.split('-')
         words.forEach((word, index) => {
             let newWord = word[0].toUpperCase() + word.slice(1)
+            //if statements to compensate for irregular apostrophes and capitalization
             if(newWord.endsWith('s')){
                 newWord = newWord.slice(0, newWord.length - 1) + "'" + newWord[newWord.length -1]
             }

@@ -10,6 +10,7 @@ function Restaurant(props) {
         .then((res) => res.json())
         .then((jsonRes) => {
           setRestData(jsonRes);
+          //loop through locations list to find location of current restaurant and recenter map with new data
           props.locations.forEach((location) => {
             if (jsonRes.name === location.name) {
               props.mapObj.setView([location.lat, location.long], 18);
@@ -18,6 +19,7 @@ function Restaurant(props) {
         });
     }
   });
+  //functions for displaying different sections of the page
   //display basic restaurant data
   function dataToJSX() {
     if (restData) {
@@ -116,7 +118,7 @@ function Restaurant(props) {
       return "";
     }
   }
-
+  //assemble page from section functions
   return (
     <div id="restaurant-display">
       {dataToJSX()}

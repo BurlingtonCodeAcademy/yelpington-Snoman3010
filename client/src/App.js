@@ -30,6 +30,7 @@ function App() {
     }
   });
 
+  //always display nav bar, header and map
   return (
     <BrowserRouter>
       <h1 id="title">Fake Yelp Thing</h1>
@@ -56,6 +57,7 @@ function App() {
         exact
         path="/"
         component={() => {
+          //resetting map view, not actually adding a component so returns null
           if (mapObj) {
             mapObj.setView(center, 18);
           }

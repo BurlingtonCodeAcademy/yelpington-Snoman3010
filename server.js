@@ -8,10 +8,11 @@ const fs = require('fs')
 app.use(express.static('./client/public'));
 
 //api get requests
+//individual restaurant or location
 app.get('/api/:restaurant' , (request, response) => {
     response.sendFile(path.resolve(`./api/${request.params.restaurant}.json`))
 })
-
+//list of restaurants
 app.get('/api', (request, response) => {
     response.sendFile(path.resolve('./api/list.json'))
 })
@@ -30,7 +31,7 @@ app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 })
 
-//overwrite restaurant json file with updated object
+//push new comment onto comment array of original json object and overwrite restaurant json file with updated object
 function addComment(restId, reqBody, res){
     let restObj = JSON.parse(reqBody.jsonOriginal);
     restObj.notes.push(reqBody.comment.trim());
@@ -39,6 +40,7 @@ function addComment(restId, reqBody, res){
         if(err){
             res.status(500).send(err);
         }else{
+            //force refresh of page so new comment shows up
             res.redirect(`/restaurant/${restId}`);
         }
     })
